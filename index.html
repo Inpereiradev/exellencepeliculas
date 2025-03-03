@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bem-vindo</title>
+    <title>Excellence Peliculas</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
@@ -11,6 +11,11 @@
         <div class="top-buttons">
             <a href="https://www.instagram.com/excellencepeliculas/?igsh=c3ZhaDNxdWtyZjhu#" class="btn-instagram" target="_blank">Instagram</a>
             <a href="https://wa.me/555194014887" class="btn-whatsapp" target="_blank">WhatsApp</a>
+        </div>
+    </div>
+
+    <div class="container">
+        
         
 
         <!-- Seção que agrupa carrossel + caixa de texto -->
@@ -124,6 +129,33 @@
             color: #333;
         }
     </style>
+    <!-- Galeria de Imagens com descrições -->
+<div class="gallery">
+    <h2>Saiba mais sobre nossas peliculas:</h2>
+    <div class="gallery-images">
+        <div class="gallery-item">
+            <img src="{{ url_for('static', filename='img/galeria1.jpg') }}" alt="Trabalho 1">
+            <p>Instalação de película fumê em portas externas.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="{{ url_for('static', filename='img/galeria2.jpg') }}" alt="Trabalho 2">
+            <p>Películas para controle de luz solar e temperatura.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="{{ url_for('static', filename='img/galeria3.jpg') }}" alt="Trabalho 3">
+            <p>Proteção e privacidade com películas espelhadas.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="{{ url_for('static', filename='img/galeria4.jpg') }}" alt="Trabalho 4">
+            <p>Aplicação profissional para vidros comerciais.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
 
 </body>
 </html>
